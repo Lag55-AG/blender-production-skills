@@ -61,8 +61,7 @@ merely because a reference exists.
 
 ## Method Routing
 
-Ask what causes the result:
-
+Ask what causes the result
 - A unique designed form is modeled.
 - A predictable mapping is deformed.
 - A controlled mechanism is rigged or constrained.
@@ -71,8 +70,7 @@ Ask what causes the result:
 - Substrate identity, manufacturing direction, coating, roughness, wetness, and microscopic
   appearance are surfaced with scale-aware materials.
 
-Then classify the construction grammar before creating formal geometry:
-
+Then classify the construction grammar before creating formal geometry
 - negative space in one solid -> host volume plus Boolean cutter;
 - regular vector repetition -> one source plus Array or linked instances;
 - regular elevation sequence -> directional flight graph plus rise/run Array;
@@ -108,8 +106,7 @@ alignment, and displacement without declared topology density or coordinates.
 
 ## Stage Gates
 
-`modeling_stage` is a one-way production state except when validation explicitly rolls it back:
-
+`modeling_stage` is a one-way production state except when validation explicitly rolls it back
 ```text
 analysis -> blockout -> topology_construction -> structural_forms ->
 transition_forms -> functional_parts -> surface_details -> systems ->
@@ -257,7 +254,7 @@ After every construction transaction, evaluate the topology-first rollback condi
 fails the affected part. Two distinct strikes set `rollback.required=true`, reopen either
 `topology_construction` or `structural_forms`, block Systems/Surfacing/Lighting work, and preserve
 the last accepted checkpoint. Repair only task-owned data. A wireframe that reveals primitive
-stacking overrides an attractive clay render.
+stacking supersedes an attractive clay render.
 
 ## Transaction Size
 
@@ -291,8 +288,7 @@ layout for R1 failures, construction for R2 failures, and lighting/material resp
 
 ## Authority And Retry Budgets
 
-Use one authority matrix:
-
+Use one authority matrix
 - Router: route, production stage, retry counters, rollback target, visual pauses, and deletion question.
 - Scene Design: design intent only.
 - Reference Reconstruction: reference evidence and spatial hypotheses only.

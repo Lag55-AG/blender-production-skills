@@ -41,7 +41,7 @@ stacking, disconnected islands, faceted curves, missing interfaces, or false bev
 1. Inspect selected mesh objects, their scale, modifiers, materials, deformation, and
    camera-distance range.
 2. Preserve the current World, cameras, collections, and unrelated materials.
-3. Build toon fill as:
+3. Build toon fill as
    `Diffuse BSDF -> Shader to RGB -> Constant Color Ramp -> stable material variation`.
 4. Build the outline as a Geometry Nodes modifier:
    - extrude faces along evaluated normals;
@@ -76,8 +76,7 @@ approved.
 
 ## Validation Gate
 
-Check all of the following before reporting completion:
-
+Check all of the following before reporting completion
 - Eevee is active and `ShaderNodeShaderToRGB` exists.
 - The color ramp uses discrete bands and remains stable as the light rotates.
 - The outline graph contains Extrude Mesh, top-face isolation, Set Position, Flip Faces,

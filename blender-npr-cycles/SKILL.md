@@ -37,8 +37,7 @@ a valid contour, welded shell, manufactured radius, or clean intersection.
 
 ## Raycast Method
 
-For each camera-plane offset `+X`, `-X`, `+Y`, and `-Y`:
-
+For each camera-plane offset `+X`, `-X`, `+Y`, and `-Y`
 1. Transform the offset vector from Camera space to World space.
 2. Scale it by the requested outline width.
 3. Add it to Geometry Position to create the ray origin.
@@ -75,8 +74,7 @@ silhouette. Scene-aware ray tests must be an intentional choice.
 
 ## Validation Gate
 
-Check all of the following:
-
+Check all of the following
 - Cycles is active and Blender is at least 5.2.
 - The sample group contains Camera-to-World vector transform, scaled offset, shifted
   position, reversed Incoming direction, and Shader Raycast.

@@ -41,8 +41,7 @@ Describe foreground, midground, background, region connections, elevation change
 and leading paths. A stream, stair, rail, curb, wall edge, light band, or repeated module can direct
 attention only when its start, direction, destination, and interruption policy are explicit.
 
-For standalone assets, translate depth into form hierarchy:
-
+For standalone assets, translate depth into form hierarchy
 - primary silhouette;
 - structural planes and cavities;
 - transition radii and section changes;
@@ -51,8 +50,7 @@ For standalone assets, translate depth into form hierarchy:
 
 ## Representation Budget
 
-Choose the cheapest representation that preserves the declared deliverable:
-
+Choose the cheapest representation that preserves the declared deliverable
 | Requirement | Representation |
 | --- | --- |
 | silhouette, cast shadow, contact, collision, close parallax | real evaluated geometry |
@@ -83,8 +81,7 @@ contact, deformation, or close inspection.
 
 ## Local Repair Map
 
-Use symptom-to-local-repair mapping:
-
+Use symptom-to-local-repair mapping
 | Symptom | Inspect | Repair scope |
 | --- | --- | --- |
 | focus is weak | hierarchy, contrast, density, occlusion | focal hierarchy only |

@@ -57,8 +57,7 @@ For an ambiguous basin interior, keep alternatives such as empty metal, wet meta
 
 ## Causal Aging
 
-Map each effect to a cause:
-
+Map each effect to a cause
 - gravity: downward streaks and settling;
 - water flow: mineral paths, rust runs, wet boundaries;
 - contact: polished or dirty handles, rims, and floor supports;

@@ -99,7 +99,3 @@ validate it explicitly.
 
 ## Official Blender Sources
 
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/input/raycast.html
-- https://docs.blender.org/api/current/bpy.types.ShaderNodeRaycast.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/converter/vector_transform.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/toon.html

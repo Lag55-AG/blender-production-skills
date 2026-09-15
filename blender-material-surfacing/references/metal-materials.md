@@ -14,8 +14,7 @@ gray reflective surface "steel" without structural or reference evidence.
 
 ## 2. Build The Geometry Response First
 
-Metal realism depends strongly on edge radii, surface flatness, dents, and normals. Verify:
-
+Metal realism depends strongly on edge radii, surface flatness, dents, and normals. Verify
 - manufactured edges have scale-appropriate bevels;
 - large panels are not mathematically perfect when the reference shows warping or stamping;
 - smooth shading does not round designed planar faces;
@@ -48,8 +47,7 @@ Random isotropic Noise plus Metallic 1 is not brushed metal.
 
 ## 5. Coated And Painted Metal
 
-Treat paint as a dielectric layer over metal:
-
+Treat paint as a dielectric layer over metal
 - intact paint is not metallic;
 - exposed chips reveal metallic substrate;
 - clear coat is used only when a clear top layer exists;
@@ -71,8 +69,7 @@ not corrosion.
 
 ## 7. Validation
 
-Require:
-
+Require
 - plausible conductor/dielectric separation;
 - material-specific roughness under grazing reflection;
 - tangent-aligned anisotropy when present;
@@ -81,4 +78,4 @@ Require:
 - readable edges and panel form under neutral reflective review;
 - final engine render with no firefly/noise masking of roughness response.
 
-Official basis: https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/principled.html
+Official basis

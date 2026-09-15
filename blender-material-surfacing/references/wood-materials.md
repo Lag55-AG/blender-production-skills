@@ -8,8 +8,7 @@ Geometry must carry:
 - broken silhouettes, splinters, deep checks, gaps, nail holes, exposed support beams;
 - large rot cavities and compressed or eroded edges visible in shadow.
 
-The shader must carry:
-
+The shader must carry
 - growth-ring and fiber color structure;
 - pores and fine cracks;
 - roughness variation;
@@ -19,8 +18,7 @@ Do not solve a perfectly regular bridge or floor with a stronger wood texture.
 
 ## 2. UV And Grain Orientation
 
-For every hero board:
-
+For every hero board
 1. Apply or account for object scale.
 2. Mark seams so long grain follows the board length.
 3. Give top, side, and end faces intentional mapping.
@@ -110,7 +108,4 @@ Require:
 - geometry supplies major damage and shader supplies microstructure;
 - diffuse, grazing-reflection, and final-light reviews at final camera distance.
 
-Official coordinate and displacement basis:
-
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/input/texture_coordinate.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/vector/displacement.html
+Official coordinate and displacement basis

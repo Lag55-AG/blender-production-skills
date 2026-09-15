@@ -130,8 +130,7 @@ reflective shading.
 
 ## Modifier Discipline
 
-Choose stack order from intent:
-
+Choose stack order from intent
 - Decide whether a Boolean should cut the base cage, the thickened shell, or the subdivided result.
 - Decide whether Bevel controls manufactured edge radius or only shading.
 - Decide whether Solidify thickness should inherit deformation.
@@ -150,8 +149,7 @@ There is no universal modifier order.
 
 ## Completion Gate
 
-Do not mark the modeling stage complete until:
-
+Do not mark the modeling stage complete until
 - primary silhouettes pass front, side, top, and perspective review;
 - environment regions and portals agree with `spatial_hypothesis.json`, and required camera, top,
   front, and side blockout views exist;

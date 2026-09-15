@@ -62,8 +62,7 @@ supported edge, disconnected landing, reversed path, or uncontrolled curve twist
 
 ## Evidence Views
 
-Require unique files for:
-
+Require unique files for
 - reference-aligned gray blockout;
 - top, front, and side blockout views for environments;
 - edge or silhouette overlay;
@@ -84,8 +83,7 @@ Review the frame at both thumbnail size and full resolution. Thumbnail review ex
 
 ## Default Tolerances
 
-Use task-specific values when better evidence exists. Otherwise:
-
+Use task-specific values when better evidence exists. Otherwise
 - aspect-ratio error: fail above `1%`;
 - `P0` anchor-center error: warn above `2%` of image diagonal, fail above `4%`;
 - `P0` width or height error: warn above `5%`, fail above `10%`;

@@ -200,8 +200,7 @@ and foam/sediment evidence in the material route; do not blame the solver first.
 
 ## 10. Validation Gate
 
-Require:
-
+Require
 - explicit route: static volume, Ocean, Wave, Dynamic Paint, Fluid, or hybrid;
 - real scale, domain/volume bounds, waterline/contact policy;
 - declared ownership of macro shape, micro waves, foam, spray, wetness, and material response;
@@ -213,11 +212,11 @@ Require:
 
 ## 11. Official Sources
 
-- Fluid: https://docs.blender.org/manual/en/5.2/physics/fluid/index.html
-- Domain settings: https://docs.blender.org/manual/en/5.2/physics/fluid/type/domain/settings.html
-- Liquid settings: https://docs.blender.org/manual/en/5.2/physics/fluid/type/domain/liquid.html
-- Liquid mesh: https://docs.blender.org/manual/en/5.2/physics/fluid/type/domain/liquid/mesh.html
-- Cache: https://docs.blender.org/manual/en/5.2/physics/fluid/type/domain/cache.html
-- Ocean: https://docs.blender.org/manual/en/5.2/modeling/modifiers/physics/ocean.html
-- Wave: https://docs.blender.org/manual/en/5.2/modeling/modifiers/deform/wave.html
-- Dynamic Paint: https://docs.blender.org/manual/en/5.2/physics/dynamic_paint/index.html
+- Fluid
+- Domain settings
+- Liquid settings
+- Liquid mesh
+- Cache
+- Ocean
+- Wave
+- Dynamic Paint

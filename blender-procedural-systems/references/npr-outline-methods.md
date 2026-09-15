@@ -61,8 +61,7 @@ near/far camera validation because its width is not literal pixels.
 
 ## Hybrid Delivery
 
-A production NPR asset often combines:
-
+A production NPR asset often combines
 - toon fill material;
 - inverted-hull silhouette for important characters;
 - Line Art or Freestyle for selected crease/intersection strokes;
@@ -81,12 +80,4 @@ Record each layer separately in `task_route.json` so engine limits and validatio
 - Confirm toon bands remain stable when lights rotate.
 - Confirm the chosen method matches the render engine.
 
-Official references:
-
-- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/mesh/operations/extrude_mesh.html
-- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/mesh/operations/flip_faces.html
-- https://docs.blender.org/manual/en/5.2/grease_pencil/modifiers/generate/line_art.html
-- https://docs.blender.org/manual/en/5.2/render/freestyle/introduction.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/color/shader_to_rgb.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/toon.html
-- https://docs.blender.org/manual/en/5.2/render/shader_nodes/input/raycast.html
+Official references

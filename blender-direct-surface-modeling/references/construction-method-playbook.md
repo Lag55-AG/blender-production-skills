@@ -34,8 +34,7 @@ it fails when the pieces are only a manual approximation of one continuous or pa
 
 ## 2. Shape Grammar Classification
 
-Classify every major form before choosing a tool:
-
+Classify every major form before choosing a tool
 | Shape grammar | Default construction family |
 | --- | --- |
 | Negative space cut through a solid | closed host volume plus Boolean Difference cutter |
@@ -80,8 +79,7 @@ for the declared downstream use. Document that reason.
 
 ## 4. Architectural Openings
 
-For a door, window, archway, wall niche, service slot, or portal cut into one monolithic wall:
-
+For a door, window, archway, wall niche, service slot, or portal cut into one monolithic wall
 1. Build one closed wall or shell volume with real thickness.
 2. Create a named closed cutter that crosses the entire target thickness with non-coplanar margin.
 3. Own opening width, height, sill, head, reveal depth, arch radius, and alignment on the cutter.
@@ -123,8 +121,7 @@ For bounded-camera forced perspective, an Object Offset may add cumulative taper
 the count/run/rise source of truth. Keep the taper controller explicit, test the flight from side
 and top views, and disable taper for free-camera or measured architectural deliverables.
 
-Choose another route when justified:
-
+Choose another route when justified
 - use a profile extrusion, Boolean, or direct mesh for a monolithic concrete stair body;
 - use separate flights connected by explicit landings for L/U stairs;
 - use a curve or polar generator for spiral stairs;
@@ -141,8 +138,7 @@ anchor order, or path. Never move generated steps or posts one by one.
 Use a Bezier or NURBS path with bevel depth or a separate bevel object for rails, pipes, cables,
 hoses, trim, molding, frames, and other constant-profile sweeps.
 
-Declare:
-
+Declare
 - start/end point order and path direction;
 - path dimensions and local up/reference frame;
 - profile object, profile scale, and profile orientation;
@@ -162,8 +158,7 @@ twist, endpoint fit, and final-resolution faceting.
 Use snapping for one-time construction placement and Shrinkwrap/Surface Deform for persistent
 relationships.
 
-Before snapping, declare:
-
+Before snapping, declare
 - source selection and active element;
 - target object or allowed target collection;
 - snap element: increment, grid, vertex, edge, face, volume, or edge center/perpendicular;
@@ -181,8 +176,7 @@ accumulate floating-point drift through repeated manual moves.
 
 ## 8. Geometric Displacement
 
-Choose relief scale first:
-
+Choose relief scale first
 - microscopic response: Bump or Normal;
 - render-time surface displacement without editable mesh ownership: material displacement when
   the engine and subdivision mode support it;
@@ -219,8 +213,7 @@ whether a changed source updates every dependent occurrence.
 
 ## 10. Exceptions And Validation
 
-Do not make Boolean, Array, Curve, snapping, or Displace universal. Reject the default when:
-
+Do not make Boolean, Array, Curve, snapping, or Displace universal. Reject the default when
 - source objects are physically separate construction members;
 - repetition is intentionally irregular;
 - a unique silhouette needs direct control;
@@ -241,17 +234,16 @@ inputs, generated dependents, Python code role, application policy, and componen
 
 Official Blender 5.2 sources:
 
-- Boolean Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/booleans.html
-- Boolean Python API: https://docs.blender.org/api/current/bpy.types.BooleanModifier.html
-- Array Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/array.html
-- Array constant offset API: https://docs.blender.org/api/current/bpy.types.ArrayModifier.html#bpy.types.ArrayModifier.constant_offset_displace
-- Curve geometry and bevel object: https://docs.blender.org/manual/en/5.2/modeling/curves/properties/geometry.html
-- Curve bevel object API: https://docs.blender.org/api/current/bpy.types.Curve.html#bpy.types.Curve.bevel_object
-- 3D View snapping: https://docs.blender.org/manual/en/5.2/editors/3dview/controls/snapping.html
-- Snapping API: https://docs.blender.org/api/current/bpy.types.ToolSettings.html#bpy.types.ToolSettings.snap_elements
-- Displace Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/deform/displace.html
-- Displace API: https://docs.blender.org/api/current/bpy.types.DisplaceModifier.html
-
+- Boolean Modifier
+- Boolean Python API
+- Array Modifier
+- Array constant offset API: #bpy.types.ArrayModifier.constant_offset_displace
+- Curve geometry and bevel object
+- Curve bevel object API: #bpy.types.Curve.bevel_object
+- 3D View snapping
+- Snapping API: #bpy.types.ToolSettings.snap_elements
+- Displace Modifier
+- Displace API
 Representative tutorial study leads, retained as non-normative discovery metadata:
 
 - Josh Gambrell Boolean workflow: YouTube `lCA1AFEQ_z4`, `lxtHuz6luJM`, `YhAWll3mLtU`.

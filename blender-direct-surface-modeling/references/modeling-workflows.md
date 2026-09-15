@@ -77,8 +77,7 @@ For each interface define:
 
 ## 6. Tubular Elbows And Rolled Profiles
 
-Use one of these routes according to editability and reference evidence:
-
+Use one of these routes according to editability and reference evidence
 1. **Spin**: start from a circular or shaped boundary loop, place the transform center at the
    bend center, spin through the required angle with enough steps, and continue extrusion from
    the resulting loop.
