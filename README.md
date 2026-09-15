@@ -17,23 +17,23 @@ Below are some scenes and renders created or explored using this suite.
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/showcases/corridor-doorway.jpg" alt="Corridor Doorway"><br><sub>Corridor Doorway</sub></td>
-    <td width="50%"><img src="assets/showcases/moonlit-bridge-viewport.jpg" alt="Moonlit Bridge Blender Viewport"><br><sub>Moonlit Bridge Blender Viewport</sub></td>
+    <td width="50%"><img src="assets/showcases/corridor-doorway.jpg" alt="Corridor and Door"><br><sub>Corridor and Door</sub></td>
+    <td width="50%"><img src="assets/showcases/moonlit-bridge-viewport.jpg" alt="Moonlit Wooden Bridge Blender Viewport"><br><sub>Moonlit Wooden Bridge Blender Viewport</sub></td>
   </tr>
   <tr>
-    <td><img src="assets/showcases/water-chamber.jpg" alt="Underwater Circular Chamber"><br><sub>Underwater Circular Chamber</sub></td>
+    <td><img src="assets/showcases/water-chamber.jpg" alt="Underwater Circular Space"><br><sub>Underwater Circular Space</sub></td>
     <td><img src="assets/showcases/indoor-pool.jpg" alt="Indoor Pool"><br><sub>Indoor Pool</sub></td>
   </tr>
   <tr>
-    <td><img src="assets/showcases/flooded-subway-passage.jpg" alt="Flooded Subway Passage"><br><sub>Flooded Subway Passage</sub></td>
+    <td><img src="assets/showcases/flooded-subway-passage.jpg" alt="Flooded Underground Passage"><br><sub>Flooded Underground Passage</sub></td>
     <td><img src="assets/showcases/subway-platform.jpg" alt="Subway Platform"><br><sub>Subway Platform</sub></td>
   </tr>
   <tr>
     <td><img src="assets/showcases/fisheye-elevator.jpg" alt="Fisheye Elevator Space"><br><sub>Fisheye Elevator Space</sub></td>
-    <td><img src="assets/showcases/flooded-industrial-hall.jpg" alt="Flooded Industrial Hall"><br><sub>Flooded Industrial Hall</sub></td>
+    <td><img src="assets/showcases/flooded-industrial-hall.jpg" alt="Flooded Industrial Space"><br><sub>Flooded Industrial Space</sub></td>
   </tr>
   <tr>
-    <td><img src="assets/showcases/station-corridor.jpg" alt="Station Corridor"><br><sub>Station Corridor</sub></td>
+    <td><img src="assets/showcases/station-corridor.jpg" alt="Subway Corridor"><br><sub>Subway Corridor</sub></td>
     <td><img src="assets/showcases/tiled-pool.jpg" alt="Tiled Pool"><br><sub>Tiled Pool</sub></td>
   </tr>
 </table>
@@ -59,7 +59,7 @@ C:\Users\Administrator\.codex\skills\blender-production-suite
 
 The default target is Blender 5.2 LTS and the official Blender MCP. Third-party local assets are only considered candidates if they exist, are readable, and pass runtime checks; they will not be automatically installed or modified.
 
-## Notes
+## Note
 
 - This repository does not include original source files, caches, render results, or user projects for third-party assets.
 - Standard hard-surface cuts remain native Booleans; standard regular stairs remain Arrays. Geometry Nodes will not be abused just to use nodes.
