@@ -40,7 +40,8 @@ Below are some scenes and renders created or explored using this suite.
 
 ## Structure
 
-`blender-production-router` is the top-level entry point; other directories are domain-specific Specialist Skills
+`blender-production-router` is the top-level entry point; other directories are domain-specific Specialist Skills:
+
 - `blender-direct-surface-modeling`: Vertices/Edges/Faces, BMesh, Boolean, Remesh, Sculpt, and Retopology.
 - `blender-procedural-systems`: Array, Curve, Instances, Scattering, and Procedural Systems.
 - `blender-geometry-nodes-studio`: Geometry Nodes Graphs, Fields, Instances, and Simulation Zones.

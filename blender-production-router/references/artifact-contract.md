@@ -530,7 +530,8 @@ The extension is required only when `task_route.json.classes` contains
 
 ### `spatial_hypothesis.json`
 
-Required top-level keys
+Required top-level keys:
+
 ```json
 {
   "schema_version": "1.0",

@@ -23,7 +23,8 @@ Use Boolean for volume logic:
 - Union for volumes that must become one manufactured/static body;
 - Intersect for keeping only shared volume or constructing a derived region.
 
-Do not use Boolean for
+Do not use Boolean for:
+
 - physical contact between independent objects;
 - a mechanical seam that should remain open;
 - a shallow visual line better made by inset, normal, or decal;
@@ -79,7 +80,8 @@ Record solver and solver options per Boolean. Do not standardize one solver for 
 
 ## 4. Choose Modifier Order
 
-Examples are conditional, not universal
+Examples are conditional, not universal:
+
 - Mirror -> Boolean: cut participates in symmetry or cutter exists in evaluated mirrored space.
 - Boolean -> Mirror: cut only the source side and mirror the result.
 - Boolean -> Bevel: manufactured cut edges receive a common downstream radius.
@@ -120,7 +122,8 @@ use a later application checkpoint when the design is locked.
 
 ### Apply And Clean
 
-Use when export, UV, direct editing, simulation, sculpt, or downstream tools require real geometry
+Use when export, UV, direct editing, simulation, sculpt, or downstream tools require real geometry:
+
 1. duplicate/save the non-destructive source;
 2. apply at a controlled checkpoint;
 3. remove doubles only within a scale-derived tolerance;
@@ -144,7 +147,8 @@ into Subdivision and hope more levels remove pinching.
 
 ## 7. Union And Connection Policy
 
-Boolean Union is only the start of a fused connection. After Union
+Boolean Union is only the start of a fused connection. After Union:
+
 - confirm one connected exterior component where required;
 - remove internal shells/faces;
 - rebuild the visible transition if it needs a continuous radius or curvature;
@@ -218,7 +222,8 @@ and save a checkpoint. After evaluation, inspect the evaluated mesh rather than 
 
 ## 11. Validation Gate
 
-Require
+Require:
+
 - intended relationship and operation;
 - target/cutter manifold and transform report;
 - solver and option justification;
@@ -230,7 +235,7 @@ Require
 
 ## 12. Official Sources
 
-- Boolean Modifier
-- Intersect Boolean
-- Bevel Modifier
-- Weld Modifier
+- Boolean Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/booleans.html
+- Intersect Boolean: https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/mesh/intersect.html
+- Bevel Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/bevel.html
+- Weld Modifier: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/weld.html

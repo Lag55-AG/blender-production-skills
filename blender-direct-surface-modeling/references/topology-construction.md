@@ -35,7 +35,8 @@ All-quads alone are not a quality metric.
 
 ## 2. Semantic Selection
 
-Do not depend on raw element indices across topology changes. Select through
+Do not depend on raw element indices across topology changes. Select through:
+
 - named vertex groups and custom attributes;
 - boundary/non-manifold state;
 - connected components and shortest/topological paths;
@@ -49,7 +50,8 @@ Raw indices are acceptable only inside one deterministic operation before topolo
 
 ## 3. Vertex, Edge, And Face Operations
 
-Use existing geometry before adding another primitive
+Use existing geometry before adding another primitive:
+
 - Move/scale/rotate vertices or loops to correct silhouette and curvature.
 - Extrude faces/edges to continue the same structural surface.
 - Inset to create controlled panel boundaries or recessed regions.
@@ -138,7 +140,8 @@ meet an export budget.
 
 ## 9. Cleanup And Validation
 
-Check
+Check:
+
 - boundary and non-manifold edges according to asset intent;
 - duplicate positions, zero-length edges, zero-area faces, internal faces, and loose geometry;
 - connected-component count;
@@ -156,7 +159,8 @@ solid must satisfy its declared closed-volume requirement.
 
 ### Primitive-Stacking Audit
 
-After each structural transaction, count these as topology strikes
+After each structural transaction, count these as topology strikes:
+
 - a declared continuous shell spans overlapping objects or disconnected islands;
 - a visible overlap has no declared seam, interface, fusion, or physical-contact route;
 - Functional/Detail geometry exists while Structural/Transition forms remain open;
@@ -178,7 +182,7 @@ bm = bmesh.new()
 bm.from_mesh(mesh)
 
 target = [v for v in bm.verts if v.co.z > limit and v.co.x >= -tolerance]
-for vert in target
+for vert in target:
     vert.co.z += displacement(vert.co)
 
 bmesh.ops.remove_doubles(bm, verts=bm.verts, dist=weld_tolerance)
@@ -203,9 +207,9 @@ operations, use geometric/topological predicates, and validate the result immedi
 
 ## 12. Official Sources
 
-- BMesh API
-- Extrude
-- Inset
-- Bridge Edge Loops
-- Subdivision Surface
-- Retopology
+- BMesh API: https://docs.blender.org/api/current/bmesh.html
+- Extrude: https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/mesh/extrude.html
+- Inset: https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/face/inset_faces.html
+- Bridge Edge Loops: https://docs.blender.org/manual/en/5.2/modeling/meshes/editing/edge/bridge_edge_loops.html
+- Subdivision Surface: https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/subdivision_surface.html
+- Retopology: https://docs.blender.org/manual/en/5.2/modeling/meshes/retopology.html

@@ -64,7 +64,8 @@ stiffness. Recalibrate instead of compensating with arbitrary strength values.
 
 ## 4. Build The Modifier Stack
 
-Choose order from evaluated intent
+Choose order from evaluated intent:
+
 - Mirror or topology-generating modifier above Cloth: simulated topology includes it. Keep seam
   merge stable and test for self-collision at the symmetry plane.
 - Armature/deformation above Cloth: provides the animated baseline that Cloth follows or departs from.
@@ -114,7 +115,8 @@ render-only effect belongs below. Record the reason for every modifier around Cl
 
 ## 6. Calibrate Physical Properties
 
-Start from a Blender preset only as an initial state. Change one class at a time
+Start from a Blender preset only as an initial state. Change one class at a time:
+
 1. Mass and air viscosity: tune falling speed and inertia.
 2. Tension and compression: tune stretch and bunching.
 3. Shear: tune diagonal distortion.
@@ -227,7 +229,8 @@ frame range, dependency order, and whether render evaluates a different mesh.
 
 ## 12. Validation Gate
 
-Require
+Require:
+
 - declared fabric type, dimensions, and attachment/collider roles;
 - topology edge-length distribution and no accidental non-manifold defects;
 - modifier-order report;
@@ -241,7 +244,8 @@ Require
 
 ## 13. Blender Python Implementation Pattern
 
-Use RNA feature detection because settings can change between versions
+Use RNA feature detection because settings can change between versions:
+
 ```python
 cloth = obj.modifiers.get("Cloth") or obj.modifiers.new("Cloth", "CLOTH")
 settings = cloth.settings
@@ -264,8 +268,8 @@ in that Blender version, record every chosen value, then validate the actual sim
 
 ## 14. Official Sources
 
-- Cloth overview
-- Physical properties
-- Shape, pinning, sewing, rest shape
-- Collisions
-- Cache
+- Cloth overview: https://docs.blender.org/manual/en/5.2/physics/cloth/index.html
+- Physical properties: https://docs.blender.org/manual/en/5.2/physics/cloth/settings/physical_properties.html
+- Shape, pinning, sewing, rest shape: https://docs.blender.org/manual/en/5.2/physics/cloth/settings/shape.html
+- Collisions: https://docs.blender.org/manual/en/5.2/physics/cloth/settings/collisions.html
+- Cache: https://docs.blender.org/manual/en/5.2/physics/cloth/settings/cache.html

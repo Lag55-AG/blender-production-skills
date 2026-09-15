@@ -16,7 +16,8 @@ Geometry Validation reports `PASS`, `WARN`, or `FAIL`; the Router decides the re
 
 ## Supervisory Priority
 
-Choose one primary success criterion before routing specialists
+Choose one primary success criterion before routing specialists:
+
 - For a reference-locked shot, prioritize visible-frame `P0` fidelity, then correct object/material identity, then technical integrity, then artifacts and metrics.
 - For a reference-guided environment, prioritize coherent spatial regions, traversable or
   structurally valid connections, scale, and the reference camera together. The reference frame
@@ -35,7 +36,7 @@ success criterion.
 1. Inspect the current scene before changing it. Preserve the existing World, cameras, collections, objects, and materials unless the request explicitly replaces them.
 2. Detect Blender capabilities with `scripts/probe_blender_capabilities.py` when the cache is absent or the Blender version changed.
 3. Classify the request before modeling. Route visual intent for scenes and standalone assets to
-   `blender-scene-design`, then separate
+   `blender-scene-design`, then separate:
    - fixed shot, reusable asset, navigable environment, or animated environment deliverable;
    - camera region, spatial axes, connected regions, elevations, and hidden support space;
    - unique static form;
@@ -138,7 +139,8 @@ cache plus RNA probing and mark official-document verification as cached rather 
 
 ## Production Stages
 
-Run these stages in order
+Run these stages in order:
+
 1. `analysis`: capability/scene preflight, brief, references, design intent, focal/depth/flow
    hierarchy, representation and performance budgets, scale strategy, completion scope,
    protected scope, major parts, uncertainty, and provisional route. Limit automatic analysis

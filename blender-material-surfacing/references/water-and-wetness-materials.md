@@ -15,7 +15,8 @@ Do not use one transparent plane for all categories.
 
 ## 2. Thin Wetness Layer
 
-Use a shader layer when water thickness is visually negligible
+Use a shader layer when water thickness is visually negligible:
+
 - slightly darken/shift the substrate where absorption is supported;
 - narrow roughness and increase reflection continuity;
 - preserve microrelief under the film at reduced strength;
@@ -26,7 +27,8 @@ No volume absorption is required for a truly negligible film.
 
 ## 3. Puddles And Contained Water
 
-Use closed, non-zero-thickness geometry conforming to the container or depression
+Use closed, non-zero-thickness geometry conforming to the container or depression:
+
 - waterline below the rim;
 - no coplanar overlap with the container floor;
 - sensible contact boundary and meniscus policy for the shot scale;
@@ -57,7 +59,8 @@ stable through cache/render.
 ## 6. Engine Review
 
 Cycles and Eevee require different transparency/refraction settings. Probe the active Blender
-version and engine instead of copying an obsolete material-settings recipe. In both engines test
+version and engine instead of copying an obsolete material-settings recipe. In both engines test:
+
 - a dark object below the surface;
 - a bright reflection at grazing angle;
 - shallow and deep thickness;
@@ -81,6 +84,6 @@ policy, large-versus-small wave ownership, foam ownership, and unique review ren
 
 Official basis:
 
-- Principled BSDF
-- Volume Absorption
-- Ocean
+- Principled BSDF: https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/principled.html
+- Volume Absorption: https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/volume_absorption.html
+- Ocean: https://docs.blender.org/manual/en/5.2/modeling/modifiers/physics/ocean.html

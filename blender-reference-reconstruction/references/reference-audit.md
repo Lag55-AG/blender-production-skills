@@ -50,7 +50,8 @@ visible. Do not merge the two into an object list.
 
 ## Camera Evidence
 
-Do not guess focal length alone. Record
+Do not guess focal length alone. Record:
+
 - image aspect ratio and crop;
 - horizon or confidence that it is outside the frame;
 - vertical convergence and roll;
@@ -68,7 +69,8 @@ downstream comparisons when its revision changes.
 
 ## Visual Hierarchy
 
-Describe the viewing sequence at thumbnail size. Record
+Describe the viewing sequence at thumbnail size. Record:
+
 - first, second, and third attention anchors;
 - practical lights and brightest speculars;
 - largest dark masses and whether they retain detail;
@@ -80,7 +82,8 @@ If the hierarchy differs, added detail will not repair the reconstruction.
 
 ## Uncertainty
 
-Every uncertain fact needs
+Every uncertain fact needs:
+
 - the competing hypotheses;
 - evidence for and against each;
 - impact if wrong: `low`, `medium`, or `blocking`;

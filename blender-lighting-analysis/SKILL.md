@@ -31,7 +31,8 @@ with `scripts/validate_lighting_plan.py`.
 
 ## Gray-Light Gate
 
-The first production-light pass may contain only
+The first production-light pass may contain only:
+
 - one Sun for the primary directional source;
 - one low-intensity World/sky fill;
 - accepted gray geometry;
@@ -47,7 +48,8 @@ Structural Forms, Transition Forms, real bevels, and wireframe review pass.
 
 ## Additional-Light Contract
 
-Every added light records
+Every added light records:
+
 - ID and Blender object name;
 - physical or photographic source;
 - role;

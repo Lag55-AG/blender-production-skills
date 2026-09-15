@@ -100,3 +100,9 @@ are culled from the exterior view.
 
 ## Official Blender Sources
 
+- https://docs.blender.org/manual/en/5.2/render/shader_nodes/color/shader_to_rgb.html
+- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/mesh/operations/extrude_mesh.html
+- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/mesh/operations/flip_faces.html
+- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/geometry/operations/set_material.html
+- https://docs.blender.org/manual/en/5.2/modeling/geometry_nodes/geometry/write/set_position.html
+- https://docs.blender.org/manual/en/5.2/render/eevee/material_settings.html

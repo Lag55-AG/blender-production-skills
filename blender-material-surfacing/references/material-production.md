@@ -54,7 +54,8 @@ isotropic material.
 
 ## 3. PBR Channel Construction
 
-Build channels independently
+Build channels independently:
+
 - Base Color: substrate color and broad pigment variation. Do not bake lighting or cavity shadow into it.
 - Metallic: conductive substrate mask. Bare metal is near the metallic end; paint, rust, dirt,
   wood, water, and oxide layers are dielectric.
@@ -88,7 +89,8 @@ masks, and low-frequency noise. Noise should break regularity, not invent the wh
 
 ## 5. Detail Scale Routing
 
-Classify each feature
+Classify each feature:
+
 - silhouette scale: model or displace with adequate tessellation;
 - shadow scale: geometry, true displacement, or strong bump depending distance;
 - highlight scale: normal or bump;
@@ -125,9 +127,9 @@ Do not approve roughness from a front-lit still image alone.
 
 ## 8. Official Sources
 
-- Principled BSDF
-- Texture Coordinates
-- Mapping
-- Normal Map
-- Bump
-- Displacement
+- Principled BSDF: https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/principled.html
+- Texture Coordinates: https://docs.blender.org/manual/en/5.2/render/shader_nodes/input/texture_coordinate.html
+- Mapping: https://docs.blender.org/manual/en/5.2/render/shader_nodes/vector/mapping.html
+- Normal Map: https://docs.blender.org/manual/en/5.2/render/shader_nodes/vector/normal_map.html
+- Bump: https://docs.blender.org/manual/en/5.2/render/shader_nodes/vector/bump.html
+- Displacement: https://docs.blender.org/manual/en/5.2/render/shader_nodes/vector/displacement.html

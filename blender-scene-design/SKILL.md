@@ -21,7 +21,8 @@ The Router remains the only route, stage, retry-budget, rollback, and pause auth
 
 ## Design Pass
 
-Write the smallest useful decision set
+Write the smallest useful decision set:
+
 1. State a one-sentence visual thesis and the primary deliverable.
 2. Rank the primary focus, secondary focus, support masses, background, and intentional negative space.
 3. Divide the scene into foreground, midground, and background; for one asset, use silhouette,

@@ -21,7 +21,8 @@ creating a second state machine.
 
 ## Required Part Graph
 
-Before assembly, classify every buildable part in `construction_graph.json`
+Before assembly, classify every buildable part in `construction_graph.json`:
+
 - physical function and form level;
 - continuous or separate manufacturing state;
 - reason for separation;

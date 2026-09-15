@@ -54,7 +54,8 @@ from Python, or to recreate ordinary Boolean, Mirror, Bevel, Solidify, Array, or
 
 ## Physics And Hybrid Systems
 
-When a physical solver and a graph cooperate, declare exactly one `time_state_owner`
+When a physical solver and a graph cooperate, declare exactly one `time_state_owner`:
+
 - simulation solver for gravity, collision, inertia, pressure, flow, and material response;
 - Geometry Nodes Simulation Zone for deliberately procedural state;
 - curves, constraints, or drivers for art-directed deterministic motion.
@@ -65,7 +66,8 @@ not silently fake the physical cause that the selected simulation owns.
 ## Required Decision Record
 
 Keep the existing `native_component_decision` artifact key for schema compatibility, but interpret
-it as a Blender-system decision, not a demand that a non-node modifier must win
+it as a Blender-system decision, not a demand that a non-node modifier must win:
+
 ```json
 {
   "primary_system": "GEOMETRY_NODES",

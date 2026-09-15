@@ -34,7 +34,8 @@ unclassified intersection.
 
 ## Start With Material Identity
 
-Before creating nodes, record
+Before creating nodes, record:
+
 - substrate: metal, wood, stone, concrete, plastic, glass, fabric, liquid, or another material;
 - manufacturing state: cast, machined, brushed, painted, varnished, sawn, planed, weathered, soaked, polished, or corroded;
 - physical scale and visible texel scale;
@@ -45,7 +46,8 @@ Before creating nodes, record
 
 Do not approve a material from its Base Color alone.
 
-Read only the route-specific reference
+Read only the route-specific reference:
+
 - `references/material-production.md` for the common PBR, mapping, scale, layering, and validation workflow.
 - `references/metal-materials.md` for bare, brushed, coated, weathered, and corroded metal.
 - `references/wood-materials.md` for boards, grain orientation, end grain, cracks, wetness, rot, and moss.
@@ -87,7 +89,8 @@ Read only the route-specific reference
 
 ## Completion Gate
 
-Do not mark surfacing complete until
+Do not mark surfacing complete until:
+
 - material class and layer stack match the reference or declared design;
 - real-world texture scale and directional mapping are recorded;
 - PBR image color spaces and normal-map conventions are correct;

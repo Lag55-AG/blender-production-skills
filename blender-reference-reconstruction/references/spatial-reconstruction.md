@@ -60,7 +60,8 @@ unlit corridor, reflected space, or occluded volume.
 
 ## Spatial Connections
 
-Describe the topological chain
+Describe the topological chain:
+
 ```text
 camera region
 -> main region
@@ -71,7 +72,8 @@ camera region
 -> deeper or off-frame region
 ```
 
-Valid connection classes include
+Valid connection classes include:
+
 - `opens_into`;
 - `connected_by_stairs`;
 - `connected_by_ramp`;
@@ -109,7 +111,8 @@ revision. Never move the camera only to hide incorrect architecture.
 Choose one or more scale anchors such as a person, door, stair riser, railing, tile, fixture,
 vehicle, or pipe. Record a plausible range, its depth region, and confidence.
 
-Derive scale as
+Derive scale as:
+
 ```text
 anchor range -> relative ratios -> depth correction -> blockout dimensions -> camera-view review
 ```
@@ -149,7 +152,8 @@ projection; orthographic views validate continuity, depth, support, and portal c
 geometry is not expected to match an unseen reference view, but it must form a coherent spatial
 hypothesis and support the visible frame.
 
-Before Gate R1 passes, map the hypothesis to the Blender scene
+Before Gate R1 passes, map the hypothesis to the Blender scene:
+
 - each non-deferred region lists `object_names` and a non-degenerate `bounds_object`;
 - the camera region's bounds contain the active camera;
 - every opening, stair, ramp, platform, corridor, or off-frame continuation lists real
@@ -159,7 +163,8 @@ Before Gate R1 passes, map the hypothesis to the Blender scene
 
 ## Spatial Invariants
 
-Declare invariants before detailed modeling. Typical examples
+Declare invariants before detailed modeling. Typical examples:
+
 - a stair terminates on a platform rather than inside a wall;
 - a doorway has wall thickness and a connected region behind it;
 - a column reaches or intentionally stops before its support surface;

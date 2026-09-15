@@ -28,7 +28,8 @@ Evaluate the original mesh and, when relevant, the modifier-evaluated mesh:
 Open cloth, planes, and intentionally open shells must declare that boundary edges are allowed.
 
 When a construction-graph part declares `requirements`, also validate applicable semantic
-properties
+properties:
+
 - `single_component`: the mesh contains one connected component;
 - `closed_volume`: no boundary, wire, or non-manifold edges;
 - `min_smooth_ratio`: visible curved faces meet the declared smooth-face coverage;
@@ -63,7 +64,8 @@ it is not a visual-only construction part.
 
 ## Relationship Quality
 
-Validate each construction-graph relationship
+Validate each construction-graph relationship:
+
 - continuous surface: shared/welded boundary or verified reconstructed topology;
 - Boolean fused: one intended volume and no unexplained internal surface;
 - mechanical seam: documented gap and no accidental overlap;
@@ -93,7 +95,8 @@ Treat `Join Objects`, Join Geometry, parenting, collections, smooth shading, Wei
 materials, and lighting as incapable of proving topology fusion or bevel geometry. Unclassified
 visible intersections become failures at Topology Construction and later.
 
-When a construction grammar is declared, validate the generator and its parameter ownership
+When a construction grammar is declared, validate the generator and its parameter ownership:
+
 - monolithic architectural opening: one host volume, through-thickness cutter, evaluated reveal,
   no three-piece wall substitute, and Boolean cleanup evidence;
 - regular stair: start/end anchors, rise/run/count, exact Array offset, landing endpoint, and no
@@ -125,7 +128,8 @@ A plane, open surface, or thin rounded slab fails regardless of its reflective a
 
 ## Material Surface Quality
 
-For material-sensitive hero parts require
+For material-sensitive hero parts require:
+
 - declared substrate, variant, manufacturing state, and layer stack;
 - physical texture scale and coordinate route;
 - UV maps for directional image materials and an explicit tangent for anisotropy when required;
@@ -148,7 +152,8 @@ node audit does not replace visual material review.
 
 ## Simulation Stability
 
-Sample the test range and record
+Sample the test range and record:
+
 - object bounds;
 - displacement and velocity outliers;
 - penetration evidence where measurable;
@@ -158,7 +163,8 @@ Sample the test range and record
 
 ## Scene Safety
 
-Compare pre/post snapshots
+Compare pre/post snapshots:
+
 - protected object existence and data identity;
 - transforms and visibility;
 - collection membership;

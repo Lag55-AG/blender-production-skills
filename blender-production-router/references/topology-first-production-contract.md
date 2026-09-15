@@ -14,7 +14,8 @@ Allow at most two automatic analysis reviews. When the minimum fields are known 
 blocker remains, set the analysis to `provisional` and permit only task-owned, reversible Blockout.
 Record ordinary uncertainty as testable assumptions instead of keeping the task in analysis.
 
-Before formal topology or any destructive/system work, complete
+Before formal topology or any destructive/system work, complete:
+
 - deliverable and real scale;
 - reference observations, unknowns, and confidence;
 - primary silhouette and proportions;
@@ -49,7 +50,8 @@ The absence of middle-scale Structural and Transition forms is a blocking modeli
   collections, and instances.
 - Join is not Weld. Overlap is not Connection. Smooth Shading is not Bevel.
 
-Use explicit combination levels
+Use explicit combination levels:
+
 - `A_VISUAL_GROUPING` for Blockout or already independent objects;
 - `B_OBJECT_JOIN` for one container with intentional islands;
 - `C_PHYSICAL_ASSEMBLY` for real independent parts;
@@ -57,7 +59,8 @@ Use explicit combination levels
 
 ## Blockout Conversion
 
-Blockout primitives are temporary evidence of proportion. After Blockout approval
+Blockout primitives are temporary evidence of proportion. After Blockout approval:
+
 1. approve the Part Graph;
 2. mark every proxy as replace, convert, or legitimate independent primitive;
 3. build continuous primary topology;

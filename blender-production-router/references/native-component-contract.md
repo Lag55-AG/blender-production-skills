@@ -79,7 +79,7 @@ Every routed construction records:
     "evaluated_instance_count": 18
   },
   "official_sources": [
-    ""
+    "https://docs.blender.org/manual/en/5.2/modeling/modifiers/generate/array.html"
   ],
   "official_verification_policy": "search versioned Manual/API or use cached index plus RNA probing"
 }

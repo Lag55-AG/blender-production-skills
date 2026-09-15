@@ -16,7 +16,7 @@ Follow `../blender-production-router/references/system-choice-contract.md` and
 
 - The Router alone owns `task_route.json`, `stage_state.json`, retry budgets, rollback, and pauses.
 - This Skill discovers candidates and inspects their public interface and provenance.
-- The Router-approved specialist owns whether a candidate is used and how it is integrated
+- The Router-approved specialist owns whether a candidate is used and how it is integrated:
   - geometry graph: `blender-geometry-nodes-studio`;
   - repetition, source dependencies, and procedural route: `blender-procedural-systems`;
   - shader group: `blender-material-surfacing`;
