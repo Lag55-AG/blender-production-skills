@@ -61,13 +61,13 @@ Set `BLENDER_LOCAL_ASSET_LIBRARY_ROOT` or pass `--root` when the library moves.
 
 Example search:
 
-```powershell
+```text
 python scripts/search_local_asset_library.py --query "curve mesh" --catalog "Geometry Node/Curve" --blender-version 5.2 --limit 8
 ```
 
 Build then probe the runtime cache:
 
-```powershell
+```text
 python scripts/build_asset_capability_catalog.py `
   --blender "F:\SteamLibrary\steamapps\common\Blender\blender.exe" `
   --output "$env:USERPROFILE\.codex\cache\blender-production-suite\5.2\blueish_asset_capabilities.raw.json"
@@ -81,7 +81,7 @@ python scripts/probe_local_asset_capabilities.py `
 
 Example isolated inspection:
 
-```powershell
+```text
 & "F:\SteamLibrary\steamapps\common\Blender\blender.exe" --background --factory-startup "<source.blend>" --python scripts/inspect_local_asset_blend.py -- "<report.json>" --asset-name "<asset name>"
 ```
 

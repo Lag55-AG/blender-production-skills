@@ -76,7 +76,7 @@ are compared.
 
 `native_component_decision.system_choice` records direct and node candidates, the selected system,
 concrete selection and rejected-alternative reasons, node justification, and the native Boolean
-policy. `local_asset_library` is discovery metadata, not a route override. It may be enabled by an
+policy. `local_asset_library` is discovery metadata, not a route bypass. It may be enabled by an
 explicit local-library request or by a Router-selected node-centric candidate route; direct Boolean,
 simple Array, and simple curve routes do not enable it just because a library exists.
 New Router output always includes `request_origin`; validators accept its absence in existing

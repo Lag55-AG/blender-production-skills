@@ -1,6 +1,6 @@
 # Asset Library Findings
 
-These observations came from a read-only study of `F:\Work Study\CG Design\blender\节点资产`: 14 Blender files, 32 Geometry Nodes groups, 5,953 nodes, and 7,372 links. Connection coordinates were measured after resolving nested Frame offsets.
+These observations came from a read-only study of `local nodes asset library`: 14 Blender files, 32 Geometry Nodes groups, 5,953 nodes, and 7,372 links. Connection coordinates were measured after resolving nested Frame offsets.
 
 ## Measured Layout
 
@@ -15,7 +15,7 @@ The reference library proves that reroutes make very large graphs navigable, but
 
 ### Functional sub-groups plus an assembly group
 
-`小草.blend` keeps individual grass types in separate 78-186 node groups, then uses a compact `草` assembly group to combine four sub-groups. `数据流.blend` splits generation, sampling, calculation, transfer, curvature sampling, and port extraction into nine groups; its `数据流` assembly group connects seven functional groups.
+`grass.blend` keeps individual grass types in separate 78-186 node groups, then uses a compact `grass` assembly group to combine four sub-groups. `data_flow.blend` splits generation, sampling, calculation, transfer, curvature sampling, and port extraction into nine groups; its `data_flow` assembly group connects seven functional groups.
 
 Use this pattern for assets with independent behaviors. Keep each functional group focused on one contract and let the assembly group expose only the artist controls.
 

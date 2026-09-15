@@ -257,7 +257,7 @@ After every construction transaction, evaluate the topology-first rollback condi
 fails the affected part. Two distinct strikes set `rollback.required=true`, reopen either
 `topology_construction` or `structural_forms`, block Systems/Surfacing/Lighting work, and preserve
 the last accepted checkpoint. Repair only task-owned data. A wireframe that reveals primitive
-stacking overrides an attractive clay render.
+stacking supersedes an attractive clay render.
 
 ## Transaction Size
 

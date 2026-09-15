@@ -180,7 +180,7 @@ four-part model-body `0-100` R1 score. The reference Specialist writes only
 `stage_state.json` for this decision. The first score below `40` forces a full task-owned Blockout
 rebuild. A second consecutive below-40 score after that declared rebuild stops all work and asks the
 user whether the exact task project should be deleted. Never delete automatically. This emergency
-policy overrides the ordinary three-attempt technical repair allowance.
+policy supersedes the ordinary three-attempt technical repair allowance.
 
 Pause for user approval at four visual gates only: Blockout, Primary Surface (after Structural and
 Transition Forms), Systems when a visible simulation/rig/procedural result exists, and Final.

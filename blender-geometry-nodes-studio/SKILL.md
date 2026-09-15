@@ -66,7 +66,7 @@ Lay graphs left to right in these frames: `00 INPUT`, `10 DOMAIN`, `20 GENERATE`
 
 Run `scripts/inspect_geometry_nodes_asset.py` with Blender in background to inspect a reference `.blend` without editing it:
 
-```powershell
+```text
 & "F:\SteamLibrary\steamapps\common\Blender\blender.exe" --background "<asset.blend>" --python "<skill>/scripts/inspect_geometry_nodes_asset.py" -- "<report.json>"
 ```
 

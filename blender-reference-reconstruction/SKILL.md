@@ -183,7 +183,7 @@ Run `scripts/compare_reference_render.py` with `--observation reference_observat
 Review the overlay and difference image at thumbnail and full resolution. Require all `P0`
 anchors, material identities, luminance zones, and unresolved uncertainties to pass. A comparison
 without P0 regions can never return PASS. Numerical similarity supports the decision but never
-overrides a semantic mismatch.
+supersedes a semantic mismatch.
 
 `WARN` and `REVIEW_REQUIRED` are candidate states, not delivery states. A final candidate may be
 shown for review, but it must not be described as complete. Return to the earliest failed category

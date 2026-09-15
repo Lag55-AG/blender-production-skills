@@ -2,7 +2,7 @@
 
 Build the catalog only after source availability is checked:
 
-```powershell
+```text
 python scripts/build_asset_capability_catalog.py `
   --blender "F:\SteamLibrary\steamapps\common\Blender\blender.exe" `
   --output "$env:USERPROFILE\.codex\cache\blender-production-suite\5.2\blueish_asset_capabilities.json"
